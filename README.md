@@ -1,5 +1,5 @@
 # EAR PROJECT - EMERGENCY AUTOMATIC RESPIRATOR
-This project was born because of CoVid19 pandemic
+This project was born because of CoVid19 pandemic.
 The project Goal is to provide a full respiration System for CoVid19 serious cases with minimal resorces hospitals
 OPEN HARDWARE - OPEN SOURCE PROJECT
 The idea is run entire system on automotive car battery and O2 can
