@@ -38,6 +38,7 @@ Project Contributors:
 - Gustavo Ortenzi: motor drive alteratives.
 - João Cardoso e Leonardo Afonso: Kicad Capture for Open Hardware.
 - Bruno Afogliatto: decontamination concepts.
+- Andre Novelli e Victor Acioly: AMBU bags replacement.
 - Suzuki: system concepts.
 - Joannes Berque (FR): first design idea.
 - MIT E-Vent: human requirements and system conception ideas.
