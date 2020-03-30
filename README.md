@@ -31,27 +31,27 @@ It's impossible to list all names involved, I apologize for forgetting someone.
 The partial list follows:
 
 Project Contributors:
-Diego Padilha, Lucas Pianizzer: mechanical design and prototyping. 
-Marcelo Pires: electronic CAD, schematics capture & PCB Design
-Celso Monteiro: eletronics design, system conception and documentation
-Nicolai Rutkevich: mechanical concepts
-Gustavo Ortenzi: motor drive alteratives
-João Cardoso e Leonardo Afonso: Kicad Capture for Open Hardware
-Bruno Afogliatto: decontamination concepts
-Suzuki: system concepts
-Joannes Berque (FR): first design idea
-MIT E-Vent: human requirements and system conception ideas
+- Diego Padilha, Lucas Pianizzer: mechanical design and prototyping. 
+- Marcelo Pires: electronic CAD, schematics capture & PCB Design.
+- Celso Monteiro: eletronics design, system conception and documentation.
+- Nicolai Rutkevich: mechanical concepts.
+- Gustavo Ortenzi: motor drive alteratives.
+- João Cardoso e Leonardo Afonso: Kicad Capture for Open Hardware.
+- Bruno Afogliatto: decontamination concepts.
+- Suzuki: system concepts.
+- Joannes Berque (FR): first design idea.
+- MIT E-Vent: human requirements and system conception ideas.
 
-healthcare professionals involved:
-Angelica Mammana M.D. helped stablishing specs and performed crytical analysis 
-Fernando Machado M.D. was the first contributing doctor
-Lucio Flavio M.D.
-Ana Teresa Gama
+Healthcare professionals involved:
+- Angelica Mammana M.D. helped stablishing specs and performed crytical analysis.
+- Fernando Machado M.D. was the first contributing doctor.
+- Lucio Flavio M.D.
+- Ana Teresa Gama.
 
 Project supporters:
-Fabio Knihs
-Norberto Tomio
-Gabriel Casagrande
+- Fabio Knihs.
+- Norberto Tomio.
+- Gabriel Casagrande.
 
 Special thanks to Tissa and Leo, for their unlimited support and to God that inspired and guided me all the time.
 
