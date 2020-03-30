@@ -4,7 +4,7 @@ The project Goal is to provide an emergency ventilator system to help CoVid19 se
 This is an OPEN HARDWARE - OPEN SOURCE PROJECT.
 The target is to run an entire ventilation system using an automotive car battery and an O2 can
 The initial project leader is Celso Ken Mori Monteiro, automotive designer with +30 yrs experience on automotive embedded systems
-as OEM designer for customers as GM, Ford, VW, Fiat, Mercedes Benz, Scania, Navistar, Marcopolo, Agco
+as OEM designer for customers as GM, Ford, VW, Fiat, Mercedes Benz, Scania, Navistar, Marcopolo, Agco...
 
 The technology for first PCBs was downsized due to components availability in emerging countries so distributed production could be achieved even in small brazilian towns. The electronic parts are:
 - PTH components
