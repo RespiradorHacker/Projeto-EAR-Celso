@@ -38,6 +38,7 @@ Project Contributors:
 - Gustavo Ortenzi: motor drive alteratives.
 - João Cardoso e Leonardo Afonso: Kicad Capture for Open Hardware.
 - Rodrigo Azevedo: organized Github Project.
+- Douglas Esteves: interface with other projects.
 - Bruno Afogliatto: decontamination concepts.
 - Andre Novelli e Victor Acioly: AMBU bags replacement.
 - Suzuki: system concepts.
