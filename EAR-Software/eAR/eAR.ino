@@ -28,7 +28,7 @@ CUIDADO: POTS Invertidos
 #define U32 unsigned long int
 
 #include <SPI.h>
-#include "Tasks.h"
+#include "TimerOne.h"
 
 #define Inverted_Pots 1 // #R200402EAR01 define que pots excursionam de +5V a zero, sentido CW
 #define Offset_Pots 511
@@ -209,11 +209,8 @@ void setup()
   Timer_Motor = 1; // Start imediato
   Beep_OFF();
 
-  /* The status is output every 10 'ticks', offset by 0 'tick' */
-  Schedule.addTask("Controller", controller, 0, 10);
-
-  /* Starting the scheduler with a tick length of 1 millisecond */
-  Schedule.startTicks(1);
+  Timer1.initialize(100000); // set a timer of length 100000 microseconds (or 0.1 sec - or 10Hz => the led will blink 5 times, 5 cycles of on-and-off, per second)
+  Timer1.attachInterrupt( controller ); // attach the service routine here
 }
 
 // =====================
@@ -224,7 +221,7 @@ void setup()
 
 void loop()
 {
-  Schedule.runTasks();
+  
 } // end loop
 
 void controller()
