@@ -13,11 +13,13 @@
  *  Baud Rate 57600 para interface com usuario (FlexLed)
 
  ########################
- Historico de alteracoes:
+    History of Changes
  ########################
  
 CUIDADO: POTS Invertidos
-#R200402EAR01 - implementa inverted pots por SW 
+#R200402EAR01 - inverted pots or not ar now SW defined - depending on the pot travel
+#R200403EAR01 - superloop timing is now interrupt driver - implemented by Flavio Alves based on Original code by Jesse Tane
+#R200403EAR02 - changes interrupt timing from 100ms to 10ms
 
  
  */
@@ -208,8 +210,10 @@ void setup()
   Motor_Phase = M_CCW_Stop;
   Timer_Motor = 1; // Start imediato
   Beep_OFF();
-
-  Timer1.initialize(100000); // set a timer of length 100000 microseconds (or 0.1 sec - or 10Hz => the led will blink 5 times, 5 cycles of on-and-off, per second)
+ 
+  // #R200403EAR02 changes interrupt timing from 100ms to 10ms
+  Timer1.initialize(10000); // set a timer of length 10000 microseconds 10msec - or 100Hz ferquency
+  // Timer1.initialize(100000); // set a timer of length 100000 microseconds (or 0.1 sec - or 10Hz => the led will blink 5 times, 5 cycles of on-and-off, per second)
   Timer1.attachInterrupt( controller ); // attach the service routine here
 }
 
@@ -227,21 +231,23 @@ void loop()
 void controller()
 {
 
-  // Atualiza saidas e entradas Expansao SPI
-  // Realiza Load nos shift registers do 74HC165
-  // Dupliquei para dar mais tempo
-  digitalWrite(Latch_Inputs, LOW);  // garante que houve a transferÃªncia, realizada por nÃ­vel, do HC165
-  digitalWrite(Latch_Inputs, LOW);  // garante que houve a transferÃªncia, realizada por nÃ­vel, do HC165
-  digitalWrite(Latch_Inputs, HIGH); // habilita operaÃ§Ã£o HC165 como shift register
-  digitalWrite(Latch_Inputs, HIGH); // habilita operaÃ§Ã£o HC165 como shift register
+  // Update SPI based slow IOs 
+  // Reads inputs on 74HC165 shift registers 
+  // duplicated to double pulse lengths
+  digitalWrite(Latch_Inputs, LOW);  // when HC165 LI is low level inputs are read
+  digitalWrite(Latch_Inputs, LOW);  // 
+  digitalWrite(Latch_Inputs, HIGH); // HC165 in LI allows shift register op
+  digitalWrite(Latch_Inputs, HIGH); // 
 
   // SPI.beginTransaction();
   // As entradas tem que ser complementadas porque em GND => entrada ativa
+  // Inputs are complemented because they're active when grounded
   InputsExp[0] = ((SPI.transfer(OutputsExp[0]) ^ 0xFF));
   // SPI.endTransaction();
 
-  // depois do procedimento SPI utilizar
-  // Dupliquei para dar mais tempo
+  // depois do procedimento SPI atualizar os latches das saídas
+  // after SPI data shifting, update HC595 output latches
+  // Dupliquei para dar mais tempo - duplicated to double pulse lengths
   digitalWrite(Latch_Outputs, HIGH);
   digitalWrite(Latch_Outputs, HIGH);
   digitalWrite(Latch_Outputs, LOW);
