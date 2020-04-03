@@ -20,29 +20,34 @@ Current Project Status:
 - full HW schematics and system component's description available on "EAR System Developer's HW Guide", portuguese only version
 - PCB Gerbers available, Single Side PTH version, Motor driver on relay option only. Time and size were underestimated because we no longer use these old technologies. Released on March 30, 2020.
 - Mech prototype phase 2 aproved, torque is OK and current is low.
+- Gerbers of single sided boards on PTH components published on March 30, 2020. Time and size were underestimated because we no longer use these old technologies. 
+- EAR System Developer's SW Guide released on March 30, 2020.
+- Functional electronics prototype built and delivered on April 2, 2020. No changes in PCBs are necessary except hardware end-of-courses provided for EAR ECU Motor Driver Board. Test driven by firmware FW00 - focused on HW testing only. Reads input pots, control motor with reversal action, measures motor current and tests IO expansion board. All items are functional.
+- FW00 published in April 3, 2020. 
 
 Pending:
-- Gerbers of single sided boards on PTH components pending. Time and size were underestimated because we no longer use these old technologies. Estimated release on March 30, 2020.
-- EAR System Developer's SW Guide expected release on March 30, 2020.
-- Final mechanical prototype expected for Week 14
+- Final mechanical prototype expected for Week 15
 
 Special thanks to all people that made this project real!
 It's impossible to list all names involved, I apologize for forgetting someone.
 The partial list follows:
 
-Project Contributors:
-- Diego Padilha, Lucas Pianizzer: mechanical design and prototyping. 
-- Marcelo Pires: electronic CAD, schematics capture & PCB Design.
+Project Contributors, as they joned this project
+- Joannes Berque (FR): first design idea.
 - Celso Monteiro: eletronics design, system conception and documentation.
+- Diego Padilha and Lucas Pianizzer: mechanical design and prototyping. 
+- Marcelo Pires: electronic CAD, schematics capture & PCB Design.
 - Nicolai Rutkevich: mechanical concepts.
+- Bruno Afogliatto: decontamination concepts.
 - Gustavo Ortenzi: motor drive alteratives.
-- João Cardoso e Leonardo Afonso: Kicad Capture for Open Hardware.
+- Suzuki: system concepts.
 - Rodrigo Azevedo: organized Github Project.
 - Douglas Esteves: interface with other projects.
-- Bruno Afogliatto: decontamination concepts.
+- João Cardoso and Leonardo Afonso: Kicad Capture for Open Hardware.
 - Andre Novelli e Victor Acioly: AMBU bags replacement.
-- Suzuki: system concepts.
-- Joannes Berque (FR): first design idea.
+- Flevio Alves: firmware design
+
+References:
 - MIT E-Vent: human requirements and system conception ideas.
 
 Healthcare professionals involved:
@@ -57,5 +62,5 @@ Project supporters:
 - Gabriel Casagrande.
 - Ivandro Ceccato.
 
-Special thanks to Tissa and Leo, for their unlimited support and to God that inspired and guided me all the time.
+Thanks to my family, special thanks to my dear wife Tissa and my children Joana, Gustavo and Leonardo, for their unlimited support and to all the people that prayed for this project, and God that inspired and guided me all the time.
 
