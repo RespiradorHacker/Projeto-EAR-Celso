@@ -23,10 +23,14 @@ Current Project Status:
 - Gerbers of single sided boards on PTH components published on March 30, 2020. Time and size were underestimated because we no longer use these old technologies. 
 - EAR System Developer's SW Guide released on March 30, 2020.
 - Functional electronics prototype built and delivered on April 2, 2020. No changes in PCBs are necessary except hardware end-of-courses provided for EAR ECU Motor Driver Board. Test driven by firmware FW00 - focused on HW testing only. Reads input pots, control motor with reversal action, measures motor current and tests IO expansion board. All items are functional.
-- FW00 published in April 3, 2020. 
+- FW00 published in April 3, 2020.
+- Added Mosfet-based PWM Motor Driver and Absolute position sensor using a car fuel level sensor.
+- First working mechanical+electrical prototype delivered in April 6, 2020.
 
 Pending:
-- Final mechanical prototype expected for Week 15
+- Mechanical drawings for productio expected for Week 15-16
+- FR4 SMT PCB design for volume production expected for Week 15-16
+- FW02 (Non-asssited Ventilator) expected for Week 16
 
 Special thanks to all people that made this project real!
 It's impossible to list all names involved, I apologize for forgetting someone.
@@ -46,6 +50,7 @@ Project Contributors, as they joned this project
 - João Cardoso and Leonardo Afonso: Kicad Capture for Open Hardware.
 - Andre Novelli e Victor Acioly: AMBU bags replacement.
 - Flevio Alves: firmware design
+- David Loos: electronics assembly
 
 References:
 - MIT E-Vent: human requirements and system conception ideas.
