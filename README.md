@@ -30,6 +30,7 @@ Current Project Status:
 - FW00 published in April 3, 2020.
 - Added Mosfet-based PWM Motor Driver and Absolute position sensor using a car fuel level sensor.
 - First working mechanical+electrical prototype delivered in April 6, 2020.
+- Added Pressure Sensor in April 7, 2020. First artifitial lung is a balloon so first pressure profile was obtained. It Sounds promising.
 
 Pending:
 - Mechanical drawings for productio expected for Week 15-16
