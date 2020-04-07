@@ -2,6 +2,10 @@
 This project was born because of CoVid19 pandemic.
 The project Goal is to provide an emergency ventilator system to help CoVid19 serious cases using locally available resources.
 This is an OPEN HARDWARE - OPEN SOURCE PROJECT.
+
+DISCLAIMER: we will NOT take any responsability on devices built using partial or total information from this project. 
+Any device used for life support and medical applications must meet all local requirements and they must be homologated by local regulatory agencies in ANY case.
+
 The target is to run an entire ventilation system using an automotive car battery and an O2 can.
 The initial project leader is Celso Ken Mori Monteiro, automotive designer with +30 yrs experience on automotive embedded systems
 as OEM designer for customers as GM, Ford, VW, Fiat, Mercedes Benz, Scania, Navistar, Marcopolo, Agco...
@@ -30,7 +34,7 @@ Current Project Status:
 Pending:
 - Mechanical drawings for productio expected for Week 15-16
 - FR4 SMT PCB design for volume production expected for Week 15-16
-- FW02 (Non-asssited Ventilator) expected for Week 16
+- FW02 (Non-asssited Ventilator Firmware) expected for Week 16
 
 Special thanks to all people that made this project real!
 It's impossible to list all names involved, I apologize for forgetting someone.
