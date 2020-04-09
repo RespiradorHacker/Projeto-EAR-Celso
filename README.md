@@ -30,7 +30,8 @@ Current Project Status:
 - FW00 published in April 3, 2020.
 - Added Mosfet-based PWM Motor Driver and Absolute position sensor using a car fuel level sensor.
 - First working mechanical+electrical prototype delivered in April 6, 2020.
-- Added Pressure Sensor in April 7, 2020. First artifitial lung is a balloon so first pressure profile was obtained. It Sounds promising.
+- Added Pressure Sensor in April 7, 2020. First artificial lung is a balloon so first pressure profile was obtained. It Sounds promising.
+- Firmware controls Tidal Volume and BPM according to Set Potentiometers. First functional firmware produce variable pressure ramps as needed, FW met 8-30 BPM dynamic range specification. 
 
 Pending:
 - Mechanical drawings for productio expected for Week 15-16
