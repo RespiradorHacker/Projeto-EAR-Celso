@@ -1,7 +1,7 @@
 # e-AR (EAR) PROJECT - EMERGENCY AUTOMATIC RESPIRATOR
 This project was born because of CoVid19 pandemic.
-The project Goal is to provide an emergency ventilator system to help CoVid19 serious cases using locally available resources.
-This is an OPEN HARDWARE - OPEN SOURCE PROJECT.
+The project Goal is to provide an emergency ventilator system to help CoVid19 serious cases using locally available resources. eAR was designed to meet specifications according to MIT E-Vent (USA) and MHRA (UK) - Rapidly Manufacuted Ventilator System.
+This is an OPEN HARDWARE - OPEN SOURCE PROJECT. 
 
 DISCLAIMER: we will NOT take any responsability on devices built using partial or total information from this project. 
 Any device used for life support and medical applications must meet all local requirements and they must be homologated by local regulatory agencies in ANY case.
