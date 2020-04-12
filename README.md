@@ -35,6 +35,7 @@ Current Project Status:
 - Added motor cutoff in inspiratory phase according to pressure preset on pot Overpressure Threshold within 1cm H20 resolution.
 - Added full mechanical design for functional AMBU compressing ARM in April 11, 2020
 - Added in April 12, 2020: Motor Driver, mosfet NN version. Full Kicad design with schematics, PCB and Gerbers.
+- Added in April 12,2020: eAR External watchdog Timer to increase eAR reliability. Full Eagle design with schematics, PCB and Gerbers.
 
 Pending:
 - Mechanical drawings for production expected for Week 15-16
