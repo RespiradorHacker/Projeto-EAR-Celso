@@ -32,10 +32,12 @@ Current Project Status:
 - First working mechanical+electrical prototype delivered in April 6, 2020.
 - Added Pressure Sensor in April 7, 2020. First artificial lung is a balloon so first pressure profile was obtained. It Sounds promising.
 - Firmware controls Tidal Volume and BPM according to Set Potentiometers. First functional firmware produce variable pressure ramps as needed, FW met 8-30 BPM dynamic range specification.
-- Added motor cutoff in inspiratory phase according to pressure preset on pot Overpressure Threshold with 1cm H20 resolution.
+- Added motor cutoff in inspiratory phase according to pressure preset on pot Overpressure Threshold within 1cm H20 resolution.
+- Added full mechanical design for functional AMBU compressing ARM in April 11, 2020
+- Added in April 12, 2020: Motor Driver, mosfet NN version. Full Kicad design with schematics, PCB and Gerbers.
 
 Pending:
-- Mechanical drawings for productio expected for Week 15-16
+- Mechanical drawings for production expected for Week 15-16
 - FR4 SMT PCB design for volume production expected for Week 15-16
 - FW02 (Non-asssited Ventilator Firmware) expected for Week 16
 
