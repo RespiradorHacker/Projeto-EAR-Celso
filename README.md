@@ -36,6 +36,8 @@ Current Project Status:
 - Added full mechanical design for functional AMBU compressing ARM in April 11, 2020
 - Added in April 12, 2020: Motor Driver, mosfet NN version. Full Kicad design with schematics, PCB and Gerbers.
 - Added in April 12,2020: eAR External watchdog Timer to increase eAR reliability. Full Eagle design with schematics, PCB and Gerbers.
+- Added in April 13,2020: I/E selection (1:1, 1:2, 1:3 and 1:4) and Plateau Hold Time selection (150, 250, 500 and 1000ms hold on Plateau)
+- Added in April 13,2020: Gol G3 tank level float sensor added as absolute position sensor. Increased linearity, resolution and availability
 
 Pending:
 - Mechanical drawings for production expected for Week 15-16
