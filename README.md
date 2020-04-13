@@ -50,7 +50,7 @@ The partial list follows:
 
 Project Contributors, as they joned this project
 - Joannes Berque (FR): first design idea.
-- Celso Monteiro: eletronics design, system conception and documentation.
+- Celso Monteiro: eletronics and firmware design, system conception and documentation.
 - Diego Padilha and Lucas Pianizzer: electronics and mechanical design+prototyping. 
 - Marcelo Pires: electronic CAD, schematics capture & PCB Design.
 - Nicolai Rutkevich: mechanical concepts.
