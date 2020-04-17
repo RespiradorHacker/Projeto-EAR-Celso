@@ -1,6 +1,6 @@
 # e-AR (EAR) PROJECT - EMERGENCY AUTOMATIC RESPIRATOR
 This project was born because of CoVid19 pandemic.
-The project Goal is to provide an emergency ventilator system to help CoVid19 serious cases using locally available resources. eAR was designed to meet specifications according to MIT E-Vent (USA) and MHRA (UK) - Rapidly Manufacuted Ventilator System.
+The project Goal is to provide an emergency ventilator system to help CoVid19 serious cases using locally available resources. eAR was designed to meet specifications according to MIT E-Vent (USA) and MHRA (UK) - Rapidly Manufactured Ventilator System.
 This is an OPEN HARDWARE - OPEN SOURCE PROJECT. 
 
 DISCLAIMER: we will NOT take any responsability on devices built using partial or total information from this project. 
@@ -48,7 +48,7 @@ Special thanks to all people that made this project real!
 It's impossible to list all names involved, I apologize for forgetting someone.
 The partial list follows:
 
-Project Contributors, as they joned this project
+Project Contributors, as they have joined this project
 - Joannes Berque (FR): first design idea.
 - Celso Monteiro: eletronics and firmware design, system conception and documentation.
 - Diego Padilha and Lucas Pianizzer: electronics and mechanical design+prototyping. 
@@ -61,11 +61,12 @@ Project Contributors, as they joned this project
 - Douglas Esteves: interface with other projects.
 - João Cardoso and Leonardo Afonso: Kicad Capture for Open Hardware.
 - Andre Novelli e Victor Acioly: AMBU bags replacement.
-- Flevio Alves: firmware design
+- Flavio Alves: GUI design
 - David Loos: electronics assembly
 
 References:
 - MIT E-Vent: human requirements and system conception ideas.
+- MHRA (UK) Rapidly Manufactured Ventilator System
 
 Healthcare professionals involved:
 - Angelica Mammana M.D. helped stablishing specs and performed crytical analysis.
