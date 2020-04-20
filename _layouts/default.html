@@ -25,9 +25,9 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       
-      <a href="/" class="btn">Projeto</a>
-      <a href="/participe" class="btn">Participe</a>
-      <a href="/contato" class="btn">Contato</a>
+      <a href="{{ site.baseurl | append: '/' }}" class="btn">Projeto</a>
+      <a href="{{ site.baseurl | append: '/participe' }}" class="btn">Participe</a>
+      <a href="{{ site.baseurl | append: '/contato' }}" class="btn">Contato</a>
     </header>
 
     <main id="content" class="main-content" role="main">
