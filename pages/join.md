@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /participe/
+title: e-AR - Ventilador Pulmonar de Emergência
 ---
 
 # Participe
