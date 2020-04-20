@@ -3,7 +3,7 @@ github:
     is_project_page: true
     owner_name: e-AR - Emergency Ventilator
     owner_url: https://github.com/RespiradorHacker/Projeto-EAR-Celso
-title: e-AR - Ventilador de Emergência
+title: "e-AR - Ventilador Pulmonar de Emergência"
 description: Modelo open-source de ventilador pulmonar de emergência usando recursos disponíveis localmente.
 google_analytics:
 theme: jekyll-theme-cayman
