@@ -38,11 +38,12 @@ Current Project Status:
 - Added in April 12,2020: eAR External watchdog Timer to increase eAR reliability. Full Eagle design with schematics, PCB and Gerbers.
 - Added in April 13,2020: I/E selection (1:1, 1:2, 1:3 and 1:4) and Plateau Hold Time selection (150, 250, 500 and 1000ms hold on Plateau)
 - Added in April 13,2020: Gol G3 tank level float sensor added as absolute position sensor. Increased linearity, resolution and availability
+- Mech proto 3.2 added ball bearing in compression arm, currently performing cycling tests
+- Added in April 21,2020: 10x10cm FR4 SMT single PCB design for volume production, unverified
 
 Pending:
-- Mechanical drawings for production expected for Week 15-16
-- FR4 SMT PCB design for volume production expected for Week 15-16
-- FW02 (Non-asssited Ventilator Firmware) expected for Week 16
+- Mechanical proto 3.2 drawings expected for Week 17
+- Assisted Ventilation Firmware expected for Week 17
 
 Special thanks to all people that made this project real!
 It's impossible to list all names involved, I apologize for forgetting someone.
