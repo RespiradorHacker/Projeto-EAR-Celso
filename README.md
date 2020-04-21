@@ -1,6 +1,7 @@
 # e-AR (EAR) PROJECT - EMERGENCY VENTILATOR
 This project was born because of CoVid19 pandemic.
-The project Goal is to provide an emergency ventilator system to help CoVid19 serious cases using locally available resources. eAR was designed to meet specifications according to MIT E-Vent (USA) and MHRA (UK) - Rapidly Manufactured Ventilator System.
+The project Goal is to provide an emergency ventilator system to help CoVid19 serious cases using locally available resources. eAR was designed to meet specifications according to MHRA (UK) - Rapidly Manufactured Ventilator System and inspired by MIT E-Vent (USA) concepts and specs.
+
 This is an OPEN HARDWARE - OPEN SOURCE PROJECT. 
 
 DISCLAIMER: we will NOT take any responsability on devices built using partial or total information from this project. 
@@ -12,15 +13,17 @@ as OEM designer for customers as GM, Ford, VW, Fiat, Mercedes Benz, Scania, Navi
 
 The technology for first PCBs was downsized due to components availability in emerging countries so distributed production could be achieved even in small brazilian towns. The electronic parts are:
 - PTH components
-- Single-sided PCB, obtainable even by DIYs.
+- Single-sided PCB, obtainable even by DIYs. 
+
+Besides inclusive concept there is also a FR4 SMT version available for volume production.
 
 Basic concepts:
-- FIO2 O2 + AIR mixer based on timed mechanical truck air valves and plastic bag container
+- External FIO2 O2 + AIR mixer based on timed mechanical truck air valves and plastic bag container
 - AMBU smasher based on car window motor due to availabilty and great mechanical characteristics
 - ECU based on Arduino Pro Mini (the most available in emerging countries) and SPI based IO expension
 - 2 motor drive options: relay (need second adjustable supply or buck) and PWM driven mosfet driver
 
-Current Project Status:
+Project Evolution:
 - full HW schematics and system component's description available on "EAR System Developer's HW Guide", portuguese only version
 - PCB Gerbers available, Single Side PTH version, Motor driver on relay option only. Time and size were underestimated because we no longer use these old technologies. Released on March 30, 2020.
 - Mech prototype phase 2 aproved, torque is OK and current is low.
