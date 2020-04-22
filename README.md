@@ -42,10 +42,10 @@ Project Evolution:
 - Added in April 13,2020: I/E selection (1:1, 1:2, 1:3 and 1:4) and Plateau Hold Time selection (150, 250, 500 and 1000ms hold on Plateau)
 - Added in April 13,2020: Gol G3 tank level float sensor added as absolute position sensor. Increased linearity, resolution and availability
 - Mech proto 3.2 added ball bearing in compression arm, currently performing cycling tests
-- Added in April 21,2020: 10x10cm FR4 SMT single PCB design for volume production, unverified
+- Added in April 21,2020: 10x10cm FR4 SMT single PCB design for volume production, verified design, send to production
+- Added in April 21,2020: Mechanical proto 3.2 drawings, functional design
 
 Pending:
-- Mechanical proto 3.2 drawings expected for Week 17
 - Assisted Ventilation Firmware expected for Week 17
 
 Special thanks to all people that made this project real!
