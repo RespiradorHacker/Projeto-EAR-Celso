@@ -19,7 +19,7 @@ Besides inclusive concept there is also a FR4 SMT version available for volume p
 
 Basic concepts:
 - External FIO2 O2 + AIR mixer based on timed mechanical truck air valves and plastic bag container
-- AMBU smasher based on car window motor due to availabilty and great mechanical characteristics
+- AMBU smasher based on car window motor due to availabilty and great mechanical characteristics. Motor reversion is necessary to allow dinamic changes of BPM, Tidal Volume, pressure ramping, I/E Ratio and Plateau Hold Time without ANY mechanical change.
 - ECU based on Arduino Pro Mini (the most available in emerging countries) and SPI based IO expension
 - 2 motor drive options: relay (need second adjustable supply or buck) and PWM driven mosfet driver
 
