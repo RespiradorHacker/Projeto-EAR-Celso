@@ -7,4 +7,4 @@ permalink: /contato/
 
 Você pode enviar um e-mail para: [respiradorhacker@gmail.com](mailto:respiradorhacker@gmail.com)
 
-Ou [participar](/participe) e conhecer nossos canais de comunicação.
+Ou [participar]({{ site.baseurl | append: '/participe' }}) e conhecer nossos canais de comunicação.
