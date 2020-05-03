@@ -42,11 +42,15 @@ Project Evolution:
 - Added in April 13,2020: I/E selection (1:1, 1:2, 1:3 and 1:4) and Plateau Hold Time selection (150, 250, 500 and 1000ms hold on Plateau)
 - Added in April 13,2020: Gol G3 tank level float sensor added as absolute position sensor. Increased linearity, resolution and availability
 - Mech proto 3.2 added ball bearing in compression arm, currently performing cycling tests
+- Added in April 15,2020; eAR Pressure sensor Board Design and PCB, MPX5010DP supported
 - Added in April 21,2020: 10x10cm FR4 SMT single PCB design for volume production, verified design, send to production
-- Added in April 21,2020: Mechanical proto 3.2 drawings, functional design
+- Added in April 21,2020: Mechanical proto 3.2 drawings delivered, functional design
+- April 30, 2004: eAR FR4 Single-Board PCBs arrived, courtesy from Digicart/SC
+- May 1st, 2020: eAR system reached 14 days of 24/7 operation, with 403,412 beathing cycles completed. eAR met minimum durability MHRA (UK) Spec with a prototype built on MDF, a window lift BDC motor and a 20-yrs-old chevy tank float sensor
+- May 5, 2020: Multiple pressure sensor added, allowing almost any kind of linear pressure sensor to be connected to eAR system, including MPX5010, MPX10 almost all versions and packages including MPVZ and MP3V and experimental ultra-low-cost MPS20N0040D-S sensor
 
 Pending:
-- Assisted Ventilation Firmware expected for Week 17
+- Assisted Ventilation Firmware on hold. It can delay ANVISA aproval when requested.
 
 Special thanks to all people that made this project real!
 It's impossible to list all names involved, I apologize for forgetting someone.
