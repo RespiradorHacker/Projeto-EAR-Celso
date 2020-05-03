@@ -1,7 +1,6 @@
 ---
 layout: default
 permalink: /contato/
-title: e-AR - Ventilador Pulmonar de Emergência
 ---
 
 # Contato

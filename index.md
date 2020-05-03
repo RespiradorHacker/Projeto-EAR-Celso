@@ -1,6 +1,5 @@
 ---
 layout: default
-title: e-AR - Ventilador Pulmonar de Emergência
 ---
 
 # Projeto
