@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name EAR_ECU_Integrated_CPU_00-eagle-import)(type Legacy)(uri ${KIPRJMOD}/EAR_ECU_Integrated_CPU_00-eagle-import.lib)(options "")(descr ""))
+  (lib (name EAR-ECU-Integrated_CPU_00-rescue)(type Legacy)(uri "${KIPRJMOD}/EAR ECU Integrated_CPU_00-rescue.lib")(options "")(descr ""))
+  (lib (name EAR-ECU-Integrated_CPU_01-rescue)(type Legacy)(uri "${KIPRJMOD}/EAR ECU Integrated_CPU_01-rescue.lib")(options "")(descr ""))
+)
