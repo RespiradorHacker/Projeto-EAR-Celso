@@ -48,8 +48,10 @@ Project Evolution:
 - April 30, 2004: eAR FR4 Single-Board PCBs arrived, courtesy from Digicart/SC
 - May 1st, 2020: eAR system reached 14 days of 24/7 operation, with 403,412 beathing cycles completed. eAR met minimum durability MHRA (UK) Spec with a prototype built on MDF, a window lift BDC motor and a 20-yrs-old chevy tank float sensor
 - May 5, 2020: Multiple pressure sensor added, allowing almost any kind of linear pressure sensor to be connected to eAR system, including MPX5010, MPX10 almost all versions and packages including MPVZ and MP3V and experimental ultra-low-cost MPS20N0040D-S sensor
+- May 12, 2020: Integrated EAR ECU tested, functional test OK. Some minor drilling errors corrected, some improvements done and new PCB generated. New mosfet driver option added in firmware as needed. Some components changed values due to standardization effort to ease production. No pending issues on electronics.
 
 Pending:
+- Software reliability improvements.
 - Assisted Ventilation Firmware on hold. It can delay ANVISA aproval when requested.
 
 Special thanks to all people that made this project real!
