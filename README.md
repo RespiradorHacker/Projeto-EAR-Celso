@@ -49,6 +49,7 @@ Project Evolution:
 - May 1st, 2020: eAR system reached 14 days of 24/7 operation, with 403,412 beathing cycles completed. eAR met minimum durability MHRA (UK) Spec with a prototype built on MDF, a window lift BDC motor and a 20-yrs-old chevy tank float sensor
 - May 5, 2020: Multiple pressure sensor added, allowing almost any kind of linear pressure sensor to be connected to eAR system, including MPX5010, MPX10 almost all versions and packages including MPVZ and MP3V and experimental ultra-low-cost MPS20N0040D-S sensor
 - May 12, 2020: Integrated EAR ECU tested, functional test OK. Some minor drilling errors corrected, some improvements done and new PCB generated. New mosfet driver option added in firmware as needed. Some components changed values due to standardization effort to ease production. eAR electronics is ready for mass production.
+- May 23, 2020: Added first steel based eAR mechanical design, by Ricardo Suzuki
 
 Pending:
 - Software reliability improvements.
@@ -66,7 +67,7 @@ Project Contributors, as they have joined this project
 - Nicolai Rutkevich: mechanical concepts.
 - Bruno Afogliatto: decontamination concepts.
 - Gustavo Ortenzi: motor drive alteratives.
-- Suzuki: system concepts.
+- Ricardo Suzuki: system concepts and mechanical design.
 - Rodrigo Azevedo: organized Github Project.
 - Douglas Esteves: interface with other projects.
 - João Cardoso and Leonardo Afonso: Kicad Capture for Open Hardware.
