@@ -50,6 +50,7 @@ Project Evolution:
 - May 5, 2020: Multiple pressure sensor added, allowing almost any kind of linear pressure sensor to be connected to eAR system, including MPX5010, MPX10 almost all versions and packages including MPVZ and MP3V and experimental ultra-low-cost MPS20N0040D-S sensor
 - May 12, 2020: Integrated EAR ECU tested, functional test OK. Some minor drilling errors corrected, some improvements done and new PCB generated. New mosfet driver option added in firmware as needed. Some components changed values due to standardization effort to ease production. eAR electronics is ready for mass production.
 - May 23, 2020: Added first steel based eAR mechanical design, by Ricardo Suzuki. Arm sensor changed to DS 1901 non-contact TPS. 
+- June 1st, 2020: Added R2 of mechanical design in two verions, geared arm and 4-linked-bars by Ricardo Suzuki
 
 Pending:
 - Software reliability improvements.
